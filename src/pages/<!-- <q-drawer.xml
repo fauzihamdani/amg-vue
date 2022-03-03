@@ -1,0 +1,178 @@
+ <!-- <q-drawer
+      show-if-above
+      v-model="rightDrawerOpen"
+      side="right"
+      bordered
+      style="padding: 15px"
+    >
+      <div class="q-mini-drawer-hide absolute" style="top: 90px; right: 295px">
+        <q-btn
+          dense
+          round
+          unelevated
+          color="primary"
+          icon="o_filter_alt"
+          @click="toggleRightDrawer"
+        />
+      </div>
+      <div style="height: 40px"></div>
+      <q-toolbar>
+        <q-toolbar-title> Filter </q-toolbar-title>
+      </q-toolbar>
+      <q-separator />
+      <div class="q-mb-xl">
+        <q-select
+          v-model="city"
+          label="Filter Kota"
+          virtual-scroll-slice-size="20"
+          style="margin-bottom: 20px"
+          use-input
+          hide-selected
+          fill-input
+          input-debounce="0"
+          :options="options2"
+          @filter="filterFn"
+        >
+          <template v-slot:no-option>
+            <q-item>
+              <q-item-section class="text-grey"> No results </q-item-section>
+            </q-item>
+          </template>
+        </q-select>
+      </div>
+
+      <div class="q-mb-xl">
+        <q-select
+          v-model="wilayah"
+          label="Filter Wilayah"
+          virtual-scroll-slice-size="20"
+          style="margin-bottom: 20px"
+          use-input
+          hide-selected
+          fill-input
+          input-debounce="0"
+          :options="options2"
+          @filter="filterFn"
+        >
+        </q-select>
+      </div>
+
+      <div class="q-mb-xl">
+        <q-select
+          v-model="channel"
+          label="Filter channel"
+          virtual-scroll-slice-size="20"
+          style="margin-bottom: 20px"
+          use-input
+          hide-selected
+          fill-input
+          input-debounce="0"
+          :options="options2"
+          @filter="filterFn"
+        >
+        </q-select>
+      </div>
+
+      <div class="q-mb-xl">
+        <q-select
+          v-model="tower"
+          label="Filter Jumlah Tower"
+          virtual-scroll-slice-size="20"
+          style="margin-bottom: 20px"
+          use-input
+          hide-selected
+          fill-input
+          input-debounce="0"
+          :options="options2"
+          @filter="filterFn"
+        >
+        </q-select>
+      </div>
+
+      <div class="q-mb-xl">
+        <q-select
+          v-model="floor"
+          label="Filter Jumlah Lantai"
+          virtual-scroll-slice-size="20"
+          style="margin-bottom: 20px"
+          use-input
+          hide-selected
+          fill-input
+          input-debounce="0"
+          :options="options2"
+          @filter="filterFn"
+        >
+        </q-select>
+      </div>
+
+      <div class="q-mb-xl">
+        <q-select
+          v-model="tier"
+          label="Filter Tier"
+          virtual-scroll-slice-size="20"
+          style="margin-bottom: 20px"
+          use-input
+          hide-selected
+          fill-input
+          input-debounce="0"
+          :options="options2"
+          @filter="filterFn"
+        >
+        </q-select>
+      </div>
+
+      <div class="q-mb-xl">
+        <q-select
+          v-model="gpspoint"
+          label="Filter Titik GPS"
+          virtual-scroll-slice-size="20"
+          style="margin-bottom: 20px"
+          use-input
+          hide-selected
+          fill-input
+          input-debounce="0"
+          :options="options2"
+          @filter="filterFn"
+        >
+        </q-select>
+      </div>
+
+      <div class="q-mb-xl">
+        <q-select
+          v-model="keyword"
+          label="Filter Keyword"
+          virtual-scroll-slice-size="20"
+          style="margin-bottom: 20px"
+          use-input
+          hide-selected
+          fill-input
+          input-debounce="0"
+          :options="options2"
+          @filter="filterFn"
+        >
+        </q-select>
+      </div>
+
+      <div class="q-mb-xl">
+        <q-select
+          v-model="model"
+          use-input
+          hide-selected
+          fill-input
+          input-debounce="0"
+          :options="options2"
+          @filter="filterFn"
+          hint="Basic filtering"
+          label="asd"
+        >
+          <template v-slot:no-option>
+            <q-item>
+              <q-item-section class="text-grey"> No results </q-item-section>
+            </q-item>
+          </template>
+        </q-select>
+      </div>
+      {{ model }}
+
+      <q-btn color="primary" label="Filter" style="margin-top: 50px" />
+    </q-drawer> -->
